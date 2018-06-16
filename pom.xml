@@ -41,4 +41,19 @@
       </plugin>
     </plugins>
   </build>
-</project>
+<distributionManagement>
+   
+   <Repository>
+       <id>releases</id>
+       <name>Releases</name>
+       <url>http://35.173.125.125:8081/nexus/content/repositories/releases/</url>
+   </Repository>
+  
+   <snapshotRepository>
+      <id>snapshots</id>
+      <name>Snapshots</name>
+      <url>http://35.173.125.125:8081/nexus/content/repositories/snapshots/</url>
+   </snapshotRepository>
+   
+</distributionManagement>
+ </project>
