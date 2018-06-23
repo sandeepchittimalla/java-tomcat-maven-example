@@ -43,7 +43,7 @@
   </build>
 <distributionManagement>
    
-   <Repository>
+  <Repository>
        <id>releases</id>
        <name>Releases</name>
        <url>http://54.209.158.215:8081/nexus/content/repositories/releases/</url>
